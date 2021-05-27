@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <!-- <HorizontalScrollView
+        android:id="@+id/horizontalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.chip.Chip
+                android:layout_marginLeft="5dp"
+                android:id="@+id/chipNature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nature"/>
+            <com.google.android.material.chip.Chip
+            android:layout_marginLeft="5dp"
+            android:id="@+id/chipAnimals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animals"/>
+            <com.google.android.material.chip.Chip
+            android:layout_marginLeft="5dp"
+            android:id="@+id/chipLove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Love"/>
+            <com.google.android.material.chip.Chip
+                android:layout_marginLeft="5dp"
+                android:id="@+id/chipRomance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Romance"/>
+            <com.google.android.material.chip.Chip
+                android:layout_marginLeft="5dp"
+                android:id="@+id/chipCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cities"/>
+            <com.google.android.material.chip.Chip
+                android:layout_marginLeft="5dp"
+                android:id="@+id/chipVillage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Village"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        />
+</RelativeLayout>
